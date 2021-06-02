@@ -1,5 +1,5 @@
 class Identifier<T> {
-  constructor(private value: T) {
+  constructor(private readonly value: T) {
     this.value = value;
   }
 
